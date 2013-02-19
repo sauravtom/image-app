@@ -1,5 +1,6 @@
-$('textarea').bind("enterKey",function(e){
-alert("Enter");
+
+$('#input').bind("enterKey",function(e){
+  lookup();
 });
 $('textarea').keyup(function(e){
 if(e.keyCode == 13)
@@ -7,8 +8,6 @@ if(e.keyCode == 13)
   $(this).trigger("enterKey");
 }
 });
- 
-
 
 
 $("body").keypress(function(event) {
@@ -16,6 +15,8 @@ $("body").keypress(function(event) {
      lookup();
    }
 });
+
+
 
 
 function lookup(){
@@ -54,7 +55,6 @@ function showPhotos() {
     li.appendChild(img);
     
     imgcont.appendChild(li);
-    console.log('hoooyaaa');
   }
 }
 
@@ -70,7 +70,7 @@ function constructImageURL(photo) {
 }	
 
 // image corousel
-
+/*
 $("li").on("click", function(){
   $(this).addClass("active").siblings().removeClass("active");
   
@@ -80,6 +80,6 @@ $("li").on("click", function(){
   
 });
 
-
+*/
 
 };

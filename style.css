@@ -2,50 +2,12 @@ body{
   background:url('http://goo.gl/RV6Ob');  
 }
 
-.search{
-  position:fixed;
-  left:23%;
-  background:#f4f4f4;
-  border-radius:10px;
-  opacity:0.5;
-  width:700px;
-  height:58px;
-  padding:10px;
-}
-
-.search input{
-  height:50px;
-  width:590px;
-  font-size: 40px;
-  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
-  color:orange;
-  background:#fefefe;
-  border-radius:10px;
- 
-}
-
-.search button {
-  float:right;
-  height:57px;
-  width:100px;
-  border-radius:10px;
-	cursor: pointer;
-  font-size: 20px;
-  font-family: "Rockwell Extra Bold", "Rockwell Bold",;
-  background: rgb(52,173,236);   
-  
-}
-
-.search button:hover{
-  opacity:0.8;
-}
-
 #imgcont{
 	position:absolute;
 	top:5%;
 }
 
-#imgcont img{
+#imgcont li img{
 	border: 10px solid #FFF;
   box-shadow: 0 3px 6px 0 #999;
   display: block;
